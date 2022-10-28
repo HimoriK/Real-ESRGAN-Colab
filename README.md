@@ -273,3 +273,4 @@ Thanks for all the contributors.
 
 ## Colab Updates
  - v0.5 - 10/27/2022 : First Release of the Colab File. Currently Image only but in 0.9 version i will add Videos
+ - v0.9 - 10/28/2022 : Added Video Upscaling but no Optimisation for now. In 1.1 i will add another 2 third party clouds (safe.0x0.la & pomf.lain.la)
