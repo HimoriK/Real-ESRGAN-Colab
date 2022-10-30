@@ -59,6 +59,7 @@ Other recommended projects:<br>
 <!---------------------------------- Updates --------------------------->
 ## 🚩 Updates
 
+
 - ✅ Add the **realesr-general-x4v3** model - a tiny small model for general scenes. It also supports the **-dn** option to balance the noise (avoiding over-smooth results). **-dn** is short for denoising strength.
 - ✅ Update the **RealESRGAN AnimeVideo-v3** model. Please see [anime video models](docs/anime_video_model.md) and [comparisons](docs/anime_comparisons.md) for more details.
 - ✅ Add small models for anime videos. More details are in [anime video models](docs/anime_video_model.md).
@@ -71,6 +72,12 @@ Other recommended projects:<br>
 - ✅ [The inference code](inference_realesrgan.py) supports: 1) **tile** options; 2) images with **alpha channel**; 3) **gray** images; 4) **16-bit** images.
 - ✅ The training codes have been released. A detailed guide can be found in [Training.md](docs/Training.md).
 
+## 🚀 Colab Updates
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherrAkuma/Real-ESRGAN-Colab/blob/master/Real_ESRGAN_Colab.ipynb)
+ - v0.5 - 10/27/2022 : First Release of the Colab File. Currently Image only but in 0.9 version i will add Videos
+ - v0.9 - 10/28/2022 : Added Video Upscaling but no Optimisation for now. In 1.1 i will add another 2 third party clouds (safe.0x0.la & pomf.lain.la)
+ - v1.0 - 10/30/2022 : Fixed some major bugs and mistakes
+ 
 ---
 
 <!---------------------------------- Demo videos --------------------------->
@@ -270,8 +277,3 @@ Thanks for all the contributors.
 - [Asiimoviet](https://github.com/Asiimoviet): Translate the README.md to Chinese (中文).
 - [2ji3150](https://github.com/2ji3150): Thanks for the [detailed and valuable feedbacks/suggestions](https://github.com/xinntao/Real-ESRGAN/issues/131).
 - [Jared-02](https://github.com/Jared-02): Translate the Training.md to Chinese (中文).
-
-## Colab Updates
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherrAkuma/Real-ESRGAN-Colab/blob/master/Real_ESRGAN_Colab.ipynb)
- - v0.5 - 10/27/2022 : First Release of the Colab File. Currently Image only but in 0.9 version i will add Videos
- - v0.9 - 10/28/2022 : Added Video Upscaling but no Optimisation for now. In 1.1 i will add another 2 third party clouds (safe.0x0.la & pomf.lain.la)
